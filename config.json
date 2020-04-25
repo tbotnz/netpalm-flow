@@ -1,0 +1,8 @@
+{
+    "netpalm_server": {
+        "transport":"http",
+        "ip":"127.0.0.1",
+        "port":9000,
+        "key":"2a84465a-cf38-46b2-9d86-b84Q7d57f288"
+    }
+}

@@ -1,0 +1,58 @@
+{% extends "nav.html" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="container fadein">
+    <div class="row justify-content-center align-items-center" style="height: 90vh">
+        <div class="col-lg-4 text-center">
+            <form action ="/login" method="post">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <div class="text-center">
+                                <img src='/images/netpalm_white.png' alt="logo"
+                                    style="max-width:250px">
+                            </div>
+                        </h5>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <input type="password" class="form-control" name="apikey" placeholder="enter api key">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary right" data-toggle="button" aria-pressed="false"
+                        autocomplete="off">
+                        login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card" id="table">
+        <div class="card-body">
+            <h4 class="card-title">Jobs Running</h4>
+            <p class="card-description">
+                We are retrieving your data
+            </p>
+            <div class="table-responsive">
+                <table id="table" class="table">
+                    <thead>
+                        <tr>
+                            <th>Job id</th>
+                            <th>Device</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div> -->
+{% endblock %}

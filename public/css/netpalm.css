@@ -1,0 +1,316 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+body {
+    background-color: #242423;
+}
+
+.bg-dark {
+    background-color: #2f3030 !important;
+}
+
+.card {
+    background-color: transparent !important;
+    opacity: 0.7;
+    border: none;
+    color: #00FF41;
+    font-family: Calibri;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.btn-primary {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    color: rgba(255, 255, 255, .5);
+    background-color: #2f3030;
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    color: #2f3030 !important;
+    background-color: #00FF41 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    color: #2f3030 !important;
+    background-color: #00FF41 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary.hover,
+.btn-primary:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    color: #2f3030 !important;
+    background-color: #00FF41 !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    opacity: 1;
+    background-color: #2f3030 !important;
+    color: #ffffff;
+    border: none;
+    box-shadow: none !important;
+}
+
+.progress-bar {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    opacity: 1;
+    background-color: #00FF41 !important;
+    color: #ffffff;
+    border: none;
+    box-shadow: none !important;
+}
+
+.form-control.focus,
+.form-control:focus {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    opacity: 1;
+    background-color: #4d4e4e !important;
+    color: #ffffff;
+    border: none;
+    box-shadow: none !important;
+}
+
+.form-check-label {
+    color: #00FF41;
+    font-family: Calibri;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.card-title {
+    color: #00FF41;
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+;
+
+.input-sm {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar-fixed-top {
+    height: 40px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+@keyframes spinner-border {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border {
+    display: inline-block;
+
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-color: #00FF41;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+
+}
+
+.spinner-border-sm {
+    height: 1rem;
+    border-width: .2em;
+
+}
+
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* nr netpalm */
+
+.red-ui-header-logo {
+    display: none !important;
+}
+
+#red-ui-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #242423 !important;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 20px;
+    color: #242423 !important;
+    font-size: 14px;
+}
+
+#red-ui-header #red-ui-header-button-deploy.disabled {
+    cursor: default;
+    background: #242423 !important;
+    color: #fff;
+}
+
+
+#red-ui-header .button {
+    min-width: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 12px;
+    text-decoration: none;
+    color: #242423;
+    margin: auto 5px;
+    vertical-align: middle;
+    border-left: 2px solid #242423;
+    border-right: 2px solid #242423;
+}
+
+#red-ui-header .button:hover {
+    min-width: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #242423;
+    margin: auto 5px;
+    vertical-align: middle;
+    border-left: 2px solid #242423;
+    border-right: 2px solid #242423;
+}
+
+#red-ui-header #red-ui-header-button-deploy.disabled+#red-ui-header-button-deploy-options {
+    background: rgba(255, 255, 255, .5);
+    color: #242423;
+}

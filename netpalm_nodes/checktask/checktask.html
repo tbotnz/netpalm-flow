@@ -1,0 +1,40 @@
+<script type="text/javascript">
+    RED.nodes.registerType('checktask',{
+        category: 'netpalm',
+        color: '#a1a2c7',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "public/images/netpalm_corn_white.png",
+        label: function() {
+            return this.name||"checktask";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="checktask">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="checktask">
+    <p>checks a netpalm task response chain it to a netpalm getconfig/setconfig/script method
+    takes in a json msg.payload as below
+    <code>
+    {
+  "data": {
+    "created_on": "Fri, 24 Apr 2020 09:37:08 GMT",
+    "task_id": "c30ac93a-42bc-4d3f-9cea-ac99ef365b61",
+    "task_queue": "10.0.2.33",
+    "task_result": null,
+    "task_status": "queued"
+  },
+  "status": "success"
+}
+    </code>
+</p>
+</script>

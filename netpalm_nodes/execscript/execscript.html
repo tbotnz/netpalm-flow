@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    RED.nodes.registerType('execscript',{
+        category: 'netpalm',
+        color: '#ffa3cd',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "../../../public/images/netpalm_corn_white.png",
+        label: function() {
+            return this.name||"execscript";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="execscript">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="execscript">
+    <p>send in a netpalm <code>SCRIPT</code> JSON payload as msg.payload eg.
+    <code>msg.payload = {
+	"script":"hello_world",
+	"args":{
+		"hello":"world"
+	}
+};</code>
+</p>
+</script>

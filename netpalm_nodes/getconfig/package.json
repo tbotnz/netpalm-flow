@@ -1,0 +1,16 @@
+{
+  "name": "getconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "getconfig": "getconfig.js"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<script type="text/javascript">
+    RED.nodes.registerType('getconfig',{
+        category: 'netpalm',
+        color: '#32a85e',
+        defaults: {
+            name: {value:""},
+            returnconfig: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "../../../public/images/netpalm_corn_white.png",
+        label: function() {
+            return this.name||"getconfig";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="getconfig">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="getconfig">
+    <p>send in a netpalm <code>GETCONFIG</code> JSON payload as msg.payload eg.
+    <code>msg.payload = {
+    "library": "napalm",
+    "connection_args":{
+    	"device_type":"cisco_ios", "host":"10.0.2.23", "username":"admin", "password":"admin"
+    },
+    "command": "show run | i hostname"
+    };</code>
+</p>
+</script>

@@ -1,0 +1,117 @@
+{% extends "nav.html" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <form>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">getconfig</h5>
+                        <p class="card-text">retrieves operatinal or configuration state from devices</p>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <label for="inputPassword" class="col-form-label">host</label>
+                                <input class="form-control" id="inputPassword" placeholder="host">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6">
+                                <label for="inputPassword" class="col-form-label">username</label>
+                                <input class="form-control" id="inputPassword" placeholder="username">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="inputPassword" class="col-form-label">password</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <label for="exampleFormControlTextarea1">enter commands </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="show ip int brief"></textarea>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                            autocomplete="off">
+                            add host
+                        </button>
+
+                        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                            autocomplete="off">
+                            execute
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <form>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">results</h5>
+                        <p class="card-text">results appear here</p>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <label for="exampleFormControlTextarea1">tasks</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <label for="exampleFormControlTextarea1">data</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"
+                                    placeholder=""></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+</div>
+<!-- <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card" id="table">
+        <div class="card-body">
+            <h4 class="card-title">Jobs Running</h4>
+            <p class="card-description">
+                We are retrieving your data
+            </p>
+            <div class="table-responsive">
+                <table id="table" class="table">
+                    <thead>
+                        <tr>
+                            <th>Job id</th>
+                            <th>Device</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+{% endblock %}

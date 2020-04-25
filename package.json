@@ -1,0 +1,23 @@
+{
+  "name": "netpalm-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "netpalm-flow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node netpalm-flow.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "checktask": "file:netpalm_nodes/checktask",
+    "execscript": "file:netpalm_nodes/execscript",
+    "express": "^4.17.1",
+    "getconfig": "file:netpalm_nodes/getconfig",
+    "node-fetch": "^2.6.0",
+    "node-red": "^1.0.5",
+    "nunjucks": "^3.2.1",
+    "request": "^2.88.2",
+    "setconfig": "file:netpalm_nodes/setconfig"
+  }
+}
