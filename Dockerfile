@@ -2,7 +2,6 @@ FROM node:10
 ADD . /code
 WORKDIR /code
 RUN npm install
-WORKDIR /code/netpalm_nodes
 RUN npm install netpalm_nodes/checktask
 RUN npm install netpalm_nodes/execscript
 RUN npm install netpalm_nodes/getconfig

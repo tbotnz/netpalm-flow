@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var session = require('express-session');
+var cfg = require('./middleware/config_loader');
 // auth routes
 
 router.get('/login', function(req, res) {
@@ -9,7 +10,7 @@ router.get('/login', function(req, res) {
 
 router.post('/login', function(request, response, next) {
 	var apikey = request.body.apikey;
-	if (apikey) {
+	if (apikey == cfg.netpalm_server.key) {
         request.session.loggedin = true;
         console.log("logged in");
         response.redirect('/');
