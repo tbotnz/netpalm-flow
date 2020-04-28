@@ -19,7 +19,7 @@
   }
   
   .help-key {
-    border-color: #2D3239;
+    border-color: #2F3030;
     background-color: 242423;
   }
   
@@ -64,7 +64,7 @@
   }
   
   .red-ui-clipboard-dialog-box {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-clipboard-dialog-tab-clipboard textarea {
@@ -80,8 +80,8 @@
   }
   
   .red-ui-component-footer {
-    border-top-color: #2E333A;
-    background-color: #2f3030;
+    border-top-color: #242423 !important;
+    background-color: #242423;
   }
   
   .red-ui-component-spinner {
@@ -174,7 +174,7 @@
   }
   
   .red-ui-debug-msg.red-ui-debug-msg-hover {
-    border-right-color: #2E333A;
+    border-right-color: #2f3030;
   }
   
   .red-ui-debug-window {
@@ -190,7 +190,7 @@
     background-color: #2f3030;
     border-bottom-color: #2C3138;
   }
-  
+
   .red-ui-diff-empty {
     background-color: #414A59;
     background: repeating-linear-gradient(20deg, #242423, #242423 5px, #414A59 5px, #414A59 10px);
@@ -240,11 +240,11 @@
   }
   
   .red-ui-diff-list-node:first-child {
-    border-top-color: #2D3239;
+    border-top-color: #2F3030;
   }
   
   .red-ui-diff-list-node:not(:last-child) {
-    border-bottom-color: #2D3239;
+    border-bottom-color: #2F3030;
   }
   
   .red-ui-diff-panel .red-ui-diff-list li {
@@ -282,7 +282,7 @@
   }
   
   .red-ui-diff-text table.red-ui-diff-text-content td.linetext {
-    border-left-color: #2D3239;
+    border-left-color: #2F3030;
   }
   
   .red-ui-diff-text table.red-ui-diff-text-content td.unchanged {
@@ -322,11 +322,11 @@
   }
   
   .red-ui-editableList-border .red-ui-editableList-header {
-    border-bottom-color: #2D3239;
+    border-bottom-color: #2F3030;
   }
   
   .red-ui-editableList-border {
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editableList-container .red-ui-editabelList-item-placeholder {
@@ -343,7 +343,7 @@
   }
   
   .red-ui-editableList-container li.red-ui-editableList-item-deleting {
-    background-color: #373B44;
+    background-color: #2F3030;
   }
   
   .red-ui-editableList-container li.ui-sortable-helper {
@@ -377,8 +377,8 @@
   
   .red-ui-editor .ace_read-only .ace_scroller,
   .red-ui-editor-dialog .ace_read-only .ace_scroller {
-    background-color: #414A59;
-    color: #CCC;
+    background-color: #2f3030;
+    color: #fff;
   }
   
   .red-ui-editor .ace_scroller,
@@ -414,7 +414,7 @@
   .red-ui-editor-dialog .input-append .add-on,
   .red-ui-editor-dialog .input-prepend .add-on {
     background-color: #353840;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor .red-ui-tray .red-ui-editor-type-markdown-editor #dialog-form .red-ui-panel:last-child {
@@ -427,7 +427,7 @@
   .red-ui-editor-dialog .uneditable-textarea {
     color: #777;
     background-color: #414A59;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor {
@@ -499,7 +499,7 @@
   .red-ui-popover hr,
   .red-ui-typedInput-options hr,
   .red-ui-icon-picker hr {
-    border-top-color: #2D3239;
+    border-top-color: #2F3030;
   }
   
   .red-ui-editor input:-moz-placeholder,
@@ -555,7 +555,7 @@
   .red-ui-typedInput-options pre,
   .red-ui-icon-picker pre {
     background-color: 242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor select,
@@ -602,7 +602,7 @@
   .red-ui-editor select,
   .red-ui-editor-dialog select {
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor textarea,
@@ -642,7 +642,7 @@
   .red-ui-editor-dialog .uneditable-input,
   .red-ui-editor-dialog .placeholder-input {
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor ul.red-ui-tray-breadcrumbs li:not(:last-child) {
@@ -655,21 +655,21 @@
   
   .red-ui-editor-radial-menu-opt {
     background-color: #242423;
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-editor-radial-menu-opt-active {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-editor-radial-menu-opt-disabled {
-    border-color: #2D3239;
-    color: #2D3239;
+    border-color: #2F3030;
+    color: #2F3030;
   }
   
   .red-ui-editor-radial-menu>div {
     background-color: rgba(0, 0, 0, 0.2);
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-editor-subflow-env-ui-row>div:first-child {
@@ -691,7 +691,7 @@
   }
   
   .red-ui-editor-subflow-env-ui-row>div:last-child>div:nth-child(2) a:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-editor-subflow-ui-edit-panel .red-ui-editableList-border {
@@ -720,7 +720,7 @@
   }
   
   .red-ui-editor-text-container {
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-editor-type-json-editor .red-ui-treeList-container {
@@ -733,7 +733,7 @@
   }
   
   .red-ui-editor-type-json-editor .red-ui-treeList-label.selected .red-ui-editor-type-json-editor-item-gutter {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-editor-type-json-editor .red-ui-treeList-label.selected:hover .red-ui-editor-type-json-editor-item-gutter {
@@ -747,7 +747,7 @@
   
   .red-ui-editor-type-json-editor-label-value:not(.red-ui-editor-type-json-editor-label-array-key):hover,
   .red-ui-editor-type-json-editor-label-key:not(.red-ui-editor-type-json-editor-label-array-key):hover {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-editor-type-markdown-panel-preview {
@@ -837,7 +837,7 @@
   }
   
   .red-ui-icon-list-icon:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-icon-list-icon.selected {
@@ -895,7 +895,7 @@
   .red-ui-menu-dropdown>.active>a:hover,
   .red-ui-menu-dropdown>.active>a:focus {
     color: #CCC;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-menu-dropdown>.disabled>a,
@@ -914,7 +914,7 @@
   .red-ui-menu-dropdown-submenu:hover>a,
   .red-ui-menu-dropdown-submenu:focus>a {
     color: #CCC;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-navigator-border {
@@ -931,7 +931,7 @@
   }
   
   .red-ui-nodeList .red-ui-editableList-container li:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-nodeList .red-ui-editableList-container li.red-ui-editableList-section-header .red-ui-editableList-item-content.disabled {
@@ -986,7 +986,7 @@
   
   .red-ui-palette-node {
     background-color: #242423;
-    /* border-color: #2D3239; */
+    /* border-color: #2F3030; */
   }
   
   .red-ui-palette-node-config {
@@ -1004,14 +1004,14 @@
   
   .red-ui-palette-node-config-unused,
   .red-ui-palette-node-config-disabled {
-    border-color: #2E333A;
-    background-color: #373B44;
+    border-color: #2f3030;
+    background-color: #2F3030;
     color: #888;
   }
   
   .red-ui-palette-search {
     background-color: #242423;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-palette-scroll {
@@ -1045,7 +1045,7 @@
   
   .red-ui-popover a.red-ui-button.primary,
   .red-ui-popover button.red-ui-button.primary {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-popover a.red-ui-button.primary:not(.disabled):not(.ui-button-disabled):hover,
@@ -1058,7 +1058,7 @@
   }
   
   .red-ui-popover-panel {
-    border-color: #2E333A;
+    border-color: #2f3030;
     background-color: #242423;
   }
   
@@ -1149,7 +1149,7 @@
   }
   
   .red-ui-projects-dialog-file-list-entry.selectable:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
     border-left-color: #CCC;
     border-right-color: #CCC;
   }
@@ -1219,9 +1219,9 @@
   
   .red-ui-projects-dialog-project-list-entry.selectable:hover:not(.selected) {
     color: #DDD;
-    background-color: #2E333A;
-    border-left-color: #2E333A;
-    border-right-color: #2E333A;
+    background-color: #2f3030;
+    border-left-color: #2f3030;
+    border-right-color: #2f3030;
   }
   
   .red-ui-projects-dialog-project-list-entry.selected {
@@ -1244,7 +1244,7 @@
   }
   
   .red-ui-projects-dialog-ssh-key-list .red-ui-projects-dialog-ssh-key-header:hover {
-    color: #2E333A;
+    color: #2f3030;
   }
   
   .red-ui-projects-edit-form form .form-row label {
@@ -1260,7 +1260,7 @@
   }
   
   .red-ui-search {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-search-container {
@@ -1305,9 +1305,9 @@
   
   .red-ui-search-result:hover {
     color: #DDD;
-    background-color: #2E333A;
-    border-left-color: #2E333A;
-    border-right-color: #2E333A;
+    background-color: #2f3030;
+    border-left-color: #2f3030;
+    border-right-color: #2f3030;
   }
   
   .red-ui-search-results-container .red-ui-editableList-container {
@@ -1348,13 +1348,13 @@
   }
   
   .red-ui-sidebar-control-left {
-    border-color: #2E333A;
+    border-color: #2f3030;
     background-color: #2f3030;
     color: #AAA;
   }
   
   .red-ui-sidebar-control-right {
-    border-color: #2E333A;
+    border-color: #2f3030;
     background-color: #2f3030;
     color: #AAA;
   }
@@ -1388,7 +1388,7 @@
   }
   
   .red-ui-sidebar-vc-branch-list-entry:not(.input-error):hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
     border-left-color: #CCC;
     border-right-color: #CCC;
   }
@@ -1414,7 +1414,7 @@
   }
   
   .red-ui-sidebar-vc-commit-entry:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-sidebar-vc-commit-more {
@@ -1423,7 +1423,7 @@
   
   .red-ui-sidebar-vc-commit-ref {
     color: #888;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-sidebar-vc-commit-sha {
@@ -1456,9 +1456,9 @@
   }
   
   .red-ui-sidebar-vc-slide-box.red-ui-sidebar-vc-slide-box-top {
-    border-left-color: #2E333A;
-    border-right-color: #2E333A;
-    border-bottom-color: #2E333A;
+    border-left-color: #2f3030;
+    border-right-color: #2f3030;
+    border-bottom-color: #2f3030;
     color: #DDD;
     background-color: 242423;
   }
@@ -1473,17 +1473,17 @@
   
   .red-ui-tab-button {
     background-color: #242423;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tab-button a {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-tab-button a:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   .red-ui-tab-button a:not(.disabled):not(:disabled):active {
@@ -1497,7 +1497,7 @@
   
   .red-ui-tab-button a:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tab-button a.disabled,
@@ -1508,7 +1508,7 @@
   .red-ui-tab-button a.primary.disabled,
   .red-ui-tab-button a.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tab-button a.selected:not(.disabled):not(:disabled) {
@@ -1517,28 +1517,28 @@
   }
   
   .red-ui-tab-close {
-    background-color: #373B44;
+    background-color: #2F3030;
     color: #AAA;
   }
   
   .red-ui-tab-close:hover {
-    background-color: #2E333A !important;
+    background-color: #2f3030 !important;
     color: #CCC;
   }
   
   .red-ui-tab-link-buttons {
     background-color: #242423;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tab-link-buttons a {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tab-link-buttons a:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   .red-ui-tab-link-buttons a:not(.disabled):not(:disabled):active {
@@ -1552,11 +1552,11 @@
   
   .red-ui-tab-link-buttons a:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tab-link-buttons a:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tab-link-buttons a.disabled,
@@ -1567,7 +1567,7 @@
   .red-ui-tab-link-buttons a.primary.disabled,
   .red-ui-tab-link-buttons a.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tab-link-buttons a.red-ui-tab-link-button-menu {
@@ -1580,15 +1580,15 @@
   }
   
   .red-ui-tab-scroll a {
-    color: #AAA;
+    color: #2f3030;
   }
   
   .red-ui-tab-scroll-left a {
-    border-right-color: #2E333A;
+    border-right-color: #2f3030;
   }
   
   .red-ui-tab-scroll-right a {
-    border-left-color: #2E333A;
+    border-left-color: #2f3030;
   }
   
   .red-ui-tabs {
@@ -1596,12 +1596,12 @@
   }
   
   .red-ui-tabs ul {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tabs ul li {
-    border-color: #2E333A;
-    background-color: #373B44;
+    border-color: #2f3030;
+    background-color: #2F3030;
   }
   
   .red-ui-tabs ul li a.red-ui-tab-label {
@@ -1610,11 +1610,11 @@
   
   .red-ui-tabs ul li:not(.active) a:hover {
     color: #CCC;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tabs ul li:not(.active) a:hover+a.red-ui-tab-close {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tabs ul li.active {
@@ -1632,7 +1632,7 @@
   }
   
   .red-ui-tabs ul li.active a.red-ui-tab-close:hover {
-    background-color: #2E333A !important;
+    background-color: #2f3030 !important;
     color: #CCC;
   }
   
@@ -1649,12 +1649,12 @@
   }
   
   .red-ui-tabs.red-ui-tabs-vertical {
-    border-right-color: #2E333A;
+    border-right-color: #2f3030;
     background-color: 242423;
   }
   
   .red-ui-tabs.red-ui-tabs-vertical ul li {
-    border-right-color: #2E333A;
+    border-right-color: #2f3030;
   }
   
   .red-ui-tabs.red-ui-tabs-vertical ul li:last-child {
@@ -1672,11 +1672,11 @@
   .red-ui-tray {
     background-color: #242423;
     border-left-color: #2C3138;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tray-footer {
-    border-top-color: #2E333A;
+    border-top-color: #2f3030;
     background-color: #2f3030;
   }
   
@@ -1692,7 +1692,7 @@
   
   .red-ui-tray-resize-handle {
     background: #2f3030 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAqqqqE2N/7AAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-    border-left-color: #2E333A;
+    border-left-color: #2f3030;
   }
   
   .red-ui-tray-resize-handle.red-ui-tray-resize-maximised {
@@ -1707,11 +1707,11 @@
   .red-ui-tray-toolbar button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button:not(.disabled):not(:disabled):active {
@@ -1725,7 +1725,7 @@
   
   .red-ui-tray-toolbar button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tray-toolbar button.disabled,
@@ -1736,7 +1736,7 @@
   .red-ui-tray-toolbar button.primary.disabled,
   .red-ui-tray-toolbar button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button.selected:not(.disabled):not(:disabled) {
@@ -1747,11 +1747,11 @@
   .red-ui-tray-toolbar button.toggle {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button.toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button.toggle:not(.disabled):not(:disabled):active {
@@ -1765,11 +1765,11 @@
   
   .red-ui-tray-toolbar button.toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-tray-toolbar button.toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .red-ui-tray-toolbar button.toggle.disabled,
@@ -1780,7 +1780,7 @@
   .red-ui-tray-toolbar button.toggle.primary.disabled,
   .red-ui-tray-toolbar button.toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-tray-toolbar button.toggle.selected:not(.disabled):not(:disabled) {
@@ -1790,7 +1790,7 @@
   
   .red-ui-treeList-container {
     background-color: 242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-treeList-label {
@@ -1799,13 +1799,13 @@
   
   .red-ui-treeList-label:focus,
   .red-ui-treeList-label:focus .red-ui-treeList-sublabel-text {
-    background-color: #2E333A;
+    background-color: #2f3030;
     color: #DDD;
   }
   
   .red-ui-treeList-label:hover,
   .red-ui-treeList-label:hover .red-ui-treeList-sublabel-text {
-    background-color: #2E333A;
+    background-color: #2f3030;
     color: #DDD;
   }
   
@@ -1821,7 +1821,7 @@
   }
   
   .red-ui-type-search .red-ui-search-container {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   .red-ui-type-search .red-ui-search-result-node-label {
@@ -1833,16 +1833,16 @@
   }
   
   .red-ui-type-search .red-ui-search-results-container .red-ui-editableList-container {
-    border-color: #2E333A;
+    border-color: #2f3030;
     border-top-color: #2C3138;
   }
   
   .red-ui-typedInput-container {
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .red-ui-typedInput-options {
-    border-color: #2E333A;
+    border-color: #2f3030;
     background-color: #242423;
   }
   
@@ -1860,7 +1860,7 @@
   }
   
   .red-ui-typedInput-options a:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .red-ui-typedInput-options img {
@@ -1887,23 +1887,23 @@
   
   .sidebar-footer-button {
     color: #AAA !important;
-    background-color: #242423;
-    border-color: #2D3239;
+    background-color: #242423 !important;
+    border-color: #242423 !important;
   }
   
   .sidebar-footer-button-toggle {
     color: #AAA !important;
-    background-color: #242423;
-    border-color: #2D3239;
+    background-color: #242423 !important;
+    border-color: #242423 !important;
   }
   
   .sidebar-footer-button-toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #242423 !important;
   }
   
   .sidebar-footer-button-toggle:not(.disabled):not(:disabled):active {
     color: #CCC !important;
-    background-color: #353840;
+    background-color: #2f3030 !important;
   }
   
   .sidebar-footer-button-toggle:not(.disabled):not(:disabled):focus {
@@ -1912,36 +1912,36 @@
   
   .sidebar-footer-button-toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030 !important;
   }
   
   .sidebar-footer-button-toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030 !important;
   }
   
   .sidebar-footer-button-toggle.disabled,
   .sidebar-footer-button-toggle:disabled {
-    color: #777 !important;
+    color: #2f3030 !important;
   }
   
   .sidebar-footer-button-toggle.primary.disabled,
   .sidebar-footer-button-toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2f3030 !important;
   }
   
   .sidebar-footer-button-toggle.selected:not(.disabled):not(:disabled) {
     color: #CCC !important;
-    background-color: #353840;
+    background-color: #2f3030 !important;
   }
   
   .sidebar-footer-button:focus {
-    outline-color: #2D3239;
+    outline-color: #2f3030 !important;
   }
   
   .sidebar-footer-button:not(.disabled):not(:disabled):active {
     color: #CCC !important;
-    background-color: #353840;
+    background-color: #242423 !important;
   }
   
   .sidebar-footer-button:not(.disabled):not(:disabled):focus {
@@ -1950,7 +1950,7 @@
   
   .sidebar-footer-button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030 !important;
   }
   
   .sidebar-footer-button.disabled,
@@ -1960,7 +1960,7 @@
   
   .sidebar-footer-button.primary.disabled,
   .sidebar-footer-button.primary.ui-state-disabled {
-    border-color: #2D3239;
+    border-color: #2f3030 !important;
   }
   
   .sidebar-footer-button.selected:not(.disabled):not(:disabled) {
@@ -1981,7 +1981,7 @@
   
   .ui-dialog .ui-dialog-titlebar {
     background-color: #2f3030;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   .ui-dialog {
@@ -1991,11 +1991,11 @@
   .ui-dialog-buttonset button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .ui-dialog-buttonset button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   .ui-dialog-buttonset button:not(.disabled):not(:disabled):active {
@@ -2009,7 +2009,7 @@
   
   .ui-dialog-buttonset button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   .ui-dialog-buttonset button.disabled,
@@ -2018,7 +2018,7 @@
   }
   
   .ui-dialog-buttonset button.primary.disabled {
-    border-color: #2D3239;
+    border-color: #2F3030;
     color: #777 !important;
     background-color: #242423;
   }
@@ -2026,7 +2026,7 @@
   .ui-dialog-buttonset button.primary.disabled,
   .ui-dialog-buttonset button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .ui-dialog-buttonset button.selected:not(.disabled):not(:disabled) {
@@ -2035,7 +2035,7 @@
   }
   
   .ui-spinner {
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .ui-spinner input {
@@ -2079,16 +2079,16 @@
   .ui-button:hover,
   .ui-button:focus {
     border-color: #2C3138;
-    background-color: #2E333A;
+    background-color: #2f3030;
     color: #CCC;
   }
   
   .ui-widget.ui-widget-content {
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   .ui-widget-content {
-    border-color: #2D3239;
+    border-color: #2F3030;
     background: #242423;
     color: #DDD;
   }
@@ -2098,30 +2098,30 @@
   }
   
   #red-ui-clipboard-dialog-export-tab-library-browser {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   #red-ui-editor-config-scope-warning {
-    color: 242423;
+    color: #242423;
   }
   
   #red-ui-library-dialog-load-panes {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   #red-ui-library-dialog-save-browser {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   #red-ui-navigator-canvas {
-    border-left-color: #2E333A;
-    border-top-color: #2E333A;
+    border-left-color: #2f3030;
+    border-top-color: #2f3030;
     background-color: rgba(67, 73, 84, 0.8);
   }
   
   #red-ui-palette {
     background-color: #2f3030;
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   #red-ui-palette-editor .red-ui-editableList-container li .disabled .red-ui-palette-module-name {
@@ -2138,7 +2138,7 @@
   
   #red-ui-palette-editor .red-ui-palette-editor-toolbar {
     background-color: #2f3030;
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   #red-ui-palette-editor .red-ui-palette-module-description {
@@ -2146,7 +2146,7 @@
   }
   
   #red-ui-palette-editor .red-ui-palette-module-more {
-    background-color: #373B44;
+    background-color: #2F3030;
   }
   
   #red-ui-palette-editor .red-ui-palette-module-more a {
@@ -2154,7 +2154,7 @@
   }
   
   #red-ui-palette-editor .red-ui-palette-module-more a:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   #red-ui-palette-editor .red-ui-palette-module-set {
@@ -2162,7 +2162,7 @@
   }
   
   #red-ui-palette-editor .red-ui-palette-module-set-disabled {
-    background-color: #373B44;
+    background-color: #2F3030;
   }
   
   #red-ui-palette-editor .red-ui-palette-module-shade-status {
@@ -2192,7 +2192,7 @@
   
   #red-ui-project-settings-tab-deps .red-ui-palette-module-unknown {
     border-color: #2C3138;
-    background-color: #373B44;
+    background-color: #2F3030;
   }
   
   #red-ui-project-settings-tab-deps .red-ui-palette-module-unused>* {
@@ -2216,11 +2216,11 @@
   }
   
   #red-ui-settings-tab-keyboard .keyboard-shortcut-list li:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   #red-ui-settings-tab-keyboard .keyboard-shortcut-list-header {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   #red-ui-settings-tab-keyboard .keyboard-shortcut-list-header div {
@@ -2230,11 +2230,11 @@
   #red-ui-sidebar .button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   #red-ui-sidebar .button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   #red-ui-sidebar .button:not(.disabled):not(:disabled):active {
@@ -2248,7 +2248,7 @@
   
   #red-ui-sidebar .button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   #red-ui-sidebar .button.disabled,
@@ -2259,7 +2259,7 @@
   #red-ui-sidebar .button.primary.disabled,
   #red-ui-sidebar .button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   #red-ui-sidebar .button.selected:not(.disabled):not(:disabled) {
@@ -2269,7 +2269,7 @@
   
   #red-ui-sidebar {
     background-color: #2f3030;
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   #red-ui-sidebar-content {
@@ -2281,12 +2281,12 @@
   }
   
   #red-ui-workspace {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   #red-ui-workspace-toolbar .button {
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   #red-ui-workspace-toolbar .button-group .button.active {
@@ -2294,7 +2294,7 @@
   }
   
   #red-ui-workspace-toolbar .button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   #red-ui-workspace-toolbar .button:not(.disabled):not(:disabled):active {
@@ -2308,7 +2308,7 @@
   
   #red-ui-workspace-toolbar .button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   #red-ui-workspace-toolbar .button.disabled,
@@ -2319,7 +2319,7 @@
   #red-ui-workspace-toolbar .button.primary.disabled,
   #red-ui-workspace-toolbar .button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   #red-ui-workspace-toolbar .button.selected:not(.disabled):not(:disabled) {
@@ -2346,14 +2346,14 @@
   button.red-ui-button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.editor-button:focus,
   button.editor-button:focus,
   a.red-ui-button:focus,
   button.red-ui-button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.editor-button:not(.disabled):not(:disabled):active,
@@ -2375,7 +2375,7 @@
   a.red-ui-button:not(.disabled):not(:disabled):hover,
   button.red-ui-button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.editor-button.disabled,
@@ -2398,7 +2398,7 @@
   button.red-ui-button.primary.disabled,
   button.red-ui-button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.editor-button.selected:not(.disabled):not(:disabled),
@@ -2415,14 +2415,14 @@
   button.red-ui-button.toggle {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.editor-button.toggle:focus,
   button.editor-button.toggle:focus,
   a.red-ui-button.toggle:focus,
   button.red-ui-button.toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.editor-button.toggle:not(.disabled):not(:disabled):active,
@@ -2445,14 +2445,14 @@
   a.red-ui-button.toggle:not(.disabled):not(:disabled):hover,
   button.red-ui-button.toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.editor-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.editor-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   a.red-ui-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.red-ui-button.toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   a.editor-button.toggle.disabled,
@@ -2475,7 +2475,7 @@
   button.red-ui-button.toggle.primary.disabled,
   button.red-ui-button.toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.editor-button.toggle.selected:not(.disabled):not(:disabled),
@@ -2489,19 +2489,19 @@
   a.red-ui-footer-button-toggle,
   button.red-ui-footer-button-toggle {
     color: #AAA !important;
-    background-color: #242423;
-    border-color: #2D3239;
+    background-color: #242423 !important;
+    border-color: #242423 !important;
   }
   
   a.red-ui-footer-button-toggle:focus,
   button.red-ui-footer-button-toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #242423 !important;
   }
   
   a.red-ui-footer-button-toggle:not(.disabled):not(:disabled):active,
   button.red-ui-footer-button-toggle:not(.disabled):not(:disabled):active {
     color: #CCC !important;
-    background-color: #353840;
+    background-color: #2f3030 !important;
   }
   
   a.red-ui-footer-button-toggle:not(.disabled):not(:disabled):focus,
@@ -2512,12 +2512,12 @@
   a.red-ui-footer-button-toggle:not(.disabled):not(:disabled):hover,
   button.red-ui-footer-button-toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030 !important;
   }
   
   a.red-ui-footer-button-toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.red-ui-footer-button-toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030 !important;
   }
   
   a.red-ui-footer-button-toggle.disabled,
@@ -2532,7 +2532,7 @@
   button.red-ui-footer-button-toggle.primary.disabled,
   button.red-ui-footer-button-toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.red-ui-footer-button-toggle.selected:not(.disabled):not(:disabled),
@@ -2545,12 +2545,12 @@
   button.red-ui-footer-button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.red-ui-footer-button:focus,
   button.red-ui-footer-button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.red-ui-footer-button:not(.disabled):not(:disabled):active,
@@ -2567,7 +2567,7 @@
   a.red-ui-footer-button:not(.disabled):not(:disabled):hover,
   button.red-ui-footer-button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.red-ui-footer-button.disabled,
@@ -2582,7 +2582,7 @@
   button.red-ui-footer-button.primary.disabled,
   button.red-ui-footer-button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.red-ui-footer-button.selected:not(.disabled):not(:disabled),
@@ -2595,13 +2595,13 @@
   button.red-ui-tray-resize-button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
     border-bottom-color: #2C3138;
   }
   
   a.red-ui-tray-resize-button:focus,
   button.red-ui-tray-resize-button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.red-ui-tray-resize-button:not(.disabled):not(:disabled):active,
@@ -2618,7 +2618,7 @@
   a.red-ui-tray-resize-button:not(.disabled):not(:disabled):hover,
   button.red-ui-tray-resize-button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.red-ui-tray-resize-button.disabled,
@@ -2633,7 +2633,7 @@
   button.red-ui-tray-resize-button.primary.disabled,
   button.red-ui-tray-resize-button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.red-ui-tray-resize-button.selected:not(.disabled):not(:disabled),
@@ -2648,14 +2648,14 @@
   button.red-ui-sidebar-header-button-toggle {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button-toggle:focus,
   button.sidebar-header-button-toggle:focus,
   a.red-ui-sidebar-header-button-toggle:focus,
   button.red-ui-sidebar-header-button-toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.sidebar-header-button-toggle:not(.disabled):not(:disabled):active,
@@ -2678,14 +2678,14 @@
   a.red-ui-sidebar-header-button-toggle:not(.disabled):not(:disabled):hover,
   button.red-ui-sidebar-header-button-toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.sidebar-header-button-toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.sidebar-header-button-toggle:not(.single).selected:not(.disabled):not(:disabled),
   a.red-ui-sidebar-header-button-toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.red-ui-sidebar-header-button-toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   a.sidebar-header-button-toggle.disabled,
@@ -2708,7 +2708,7 @@
   button.red-ui-sidebar-header-button-toggle.primary.disabled,
   button.red-ui-sidebar-header-button-toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button-toggle.selected:not(.disabled):not(:disabled),
@@ -2725,14 +2725,14 @@
   button.red-ui-sidebar-header-button {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button:focus,
   button.sidebar-header-button:focus,
   a.red-ui-sidebar-header-button:focus,
   button.red-ui-sidebar-header-button:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.sidebar-header-button:not(.disabled):not(:disabled):active,
@@ -2755,7 +2755,7 @@
   a.red-ui-sidebar-header-button:not(.disabled):not(:disabled):hover,
   button.red-ui-sidebar-header-button:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.sidebar-header-button.disabled,
@@ -2778,7 +2778,7 @@
   button.red-ui-sidebar-header-button.primary.disabled,
   button.red-ui-sidebar-header-button.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button.selected:not(.disabled):not(:disabled),
@@ -2795,14 +2795,14 @@
   button.red-ui-sidebar-header-button.toggle {
     color: #AAA !important;
     background-color: #242423;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button.toggle:focus,
   button.sidebar-header-button.toggle:focus,
   a.red-ui-sidebar-header-button.toggle:focus,
   button.red-ui-sidebar-header-button.toggle:focus {
-    outline-color: #2D3239;
+    outline-color: #2F3030;
   }
   
   a.sidebar-header-button.toggle:not(.disabled):not(:disabled):active,
@@ -2825,14 +2825,14 @@
   a.red-ui-sidebar-header-button.toggle:not(.disabled):not(:disabled):hover,
   button.red-ui-sidebar-header-button.toggle:not(.disabled):not(:disabled):hover {
     color: #CCC !important;
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   a.sidebar-header-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.sidebar-header-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   a.red-ui-sidebar-header-button.toggle:not(.single).selected:not(.disabled):not(:disabled),
   button.red-ui-sidebar-header-button.toggle:not(.single).selected:not(.disabled):not(:disabled) {
-    border-bottom-color: #2E333A;
+    border-bottom-color: #2f3030;
   }
   
   a.sidebar-header-button.toggle.disabled,
@@ -2855,7 +2855,7 @@
   button.red-ui-sidebar-header-button.toggle.primary.disabled,
   button.red-ui-sidebar-header-button.toggle.primary.ui-state-disabled {
     color: #AAA !important;
-    border-color: #2D3239;
+    border-color: #2F3030;
   }
   
   a.sidebar-header-button.toggle.selected:not(.disabled):not(:disabled),
@@ -2896,7 +2896,7 @@
   button.red-ui-typedInput-type-select:not(.disabled):hover,
   button.red-ui-typedInput-option-expand:not(.disabled):hover,
   button.red-ui-typedInput-option-trigger:not(.disabled):hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   button.red-ui-typedInput-type-select.disabled i.red-ui-typedInput-icon,
@@ -2910,7 +2910,7 @@
   }
   
   label.red-ui-diff-selectbox:hover {
-    background-color: #2E333A;
+    background-color: #2f3030;
   }
   
   li.selected .red-ui-search-result {
@@ -2956,7 +2956,7 @@
   }
   
   ul.red-ui-sidebar-node-config-list .red-ui-palette-icon-container a:hover {
-    background: #2E333A;
+    background: #2f3030;
   }
   
   ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
@@ -2964,9 +2964,13 @@
   }
   
   ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
-    border-color: #2E333A;
+    border-color: #2f3030;
   }
   
   ul.red-ui-sidebar-node-config-list li.red-ui-palette-node-config-type {
     color: #AAA;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #2f3030 !important; 
   }
