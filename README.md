@@ -21,7 +21,7 @@ sudo docker run --name netpalm-flow -p 80:80 netpalm-flow
 ```
 
 #### demo
-![netpalm demo](/netpalm-flow.jpg)
+![netpalm demo](/netpalm_flow.gif)
 
 #### configuring 
 configure the config.json with the params for your netpalm server
