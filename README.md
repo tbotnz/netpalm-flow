@@ -37,4 +37,4 @@ configure the config.json with the params for your netpalm server
 ```
 
 #### important note
-project is currently more of a POC level implementation, feel free to PR as needed
+project is currently more of a POC level implementation, no active development currently being done. Feel free to PR as needed
